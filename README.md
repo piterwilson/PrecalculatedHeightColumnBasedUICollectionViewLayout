@@ -1,6 +1,8 @@
 #PrecalculatedHeightColumnBasedUICollectionViewLayout
 
-`PrecalculatedHeightColumnBasedUICollectionViewLayout` is a `UICollectionViewLayout` subclass where the items are placed in vertical columns that are layed out side by side. Each column has items of trivial heights.
+![PrecalculatedHeightColumnBasedUICollectionViewLayout](https://cloud.githubusercontent.com/assets/1923693/7138205/077ed81e-e2bf-11e4-8b72-c18a55a6ef05.png)
+
+`PrecalculatedHeightColumnBasedUICollectionViewLayout` is a `UICollectionViewLayout` subclass where the items are placed in vertical columns that are layed out side by side. Each column has items of arbitrary heights.
  
  The height of the items is provided by the items themselves (implementing the `PrecalculatedHeightObject` protocol). The protocol contains a sinle property that must be implemented:
  
