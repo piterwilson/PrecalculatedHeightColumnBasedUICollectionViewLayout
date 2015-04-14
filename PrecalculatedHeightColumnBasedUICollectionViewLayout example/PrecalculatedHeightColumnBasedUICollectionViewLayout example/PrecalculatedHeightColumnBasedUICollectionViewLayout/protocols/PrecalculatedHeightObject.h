@@ -5,5 +5,9 @@
 //
 
 @protocol PrecalculatedHeightObject
+
+/**
+ * The property should return the height in pixels for this object in the layout.
+ */
 -(float)precalculatedHeight;
 @end
