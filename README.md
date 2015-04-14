@@ -83,7 +83,7 @@ A simple protocol with a single property to override
 ```
 The property should return the height in pixels for this object in the layout.
 
-Usage
+Sample
 ----
 See attached Xcode project (Sample was made with XCode 6.2)
 
