@@ -17,28 +17,32 @@ The pseudo data structure
 
 ```
 [
-[
-{precalculatedHeght : 1}
-],
-[
-{precalculatedHeght : 1},
-{precalculatedHeght : 2},
-{precalculatedHeght : 3}
-],
-[
-{precalculatedHeght : 1},
-{precalculatedHeght : 2},
-{precalculatedHeght : 2}
-]
+
+	[
+		{precalculatedHeght : 1},
+		{precalculatedHeght : 2},
+		{precalculatedHeght : 3}
+	],
+
+	[
+		{precalculatedHeght : 1},
+		{precalculatedHeght : 2},
+		{precalculatedHeght : 2}
+	],
+
+	[
+		{precalculatedHeght : 1}
+	]
+	
 ]
 
 ```
-Results in:
+Results in something like:
 
 ```
 ┌─────┬─────┬─────┐
 |  1  |  1  |  1  |
-└─────┼─────┼─────┤
+└─────┼─────┼─────┘
 |  2  |  2  |
 |     |     |
 ├─────┼─────┤
